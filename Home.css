@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.page-one-background { 
+    background-color:orange;
+    mask-repeat: no-repeat; 
+}
+
+.wrapper{
+    width:90%;
+    margin:0 auto;
+   /* border: 2px soild violet;*/
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6px;
+    /* grid-auto-rows: 200px 200px 200px 400px; */
+    /* background:white;* */
+    border:10px solid yellow;
+
+}
+
+
+.navbar{
+/* border: solid blue; */
+grid-column-start:2;
+grid-column-end:3;
+grid-row-start:1;
+grid-row-end:2;
+margin:right;
+}
+
+.nav-home{
+     position:relative;
+     text-align:right;
+     top: 50%;
+ background-color: gold;
+ margin-left: -30%;
+
+}
+
+.sentence-under-profile-image{
+    /* border:2px solid orange; */
+text-indent: 50%;
+margin-top: -10%;
+font-size: 20px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+-webkit-text-fill-color: midnightblue;
+
+
+
+}
+
+.profile-image{
+background-image:url("kittens.gif");
+/* border:green; */
+/* width: 200px; */
+background-repeat: no-repeat;
+border: solid;
+height:100px;
+padding:100px;
+
+}
+
+.text-home{
+/* border:solid rebeccapurple; */
+display:block;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style:italic;
+margin-left:-10%;
+}
+
+
+.Welcome{
+    border:solid red;
+    text-align:center;
+    background-color: mediumvioletred;
+    /* margin: 20%; */
+    /* padding:125px;. */
+    -webkit-text-fill-color:yellow;
+    grid-column-start:1;
+grid-column-end:3;
+grid-row-start:2;
+grid-row-end:2;
+/* font-size:80px; */
+
+}
+
+
+.contact{
+    border: 2px yellow;
+    background-color: orangered;
+    text-align:center;
+}
